@@ -8,6 +8,7 @@
     "dependencies": {
         "@pulumi/azure-native": "^3.5.0",
         "@pulumi/docker-build": "^0.0.12",
-        "@pulumi/pulumi": "^3.113.0"
+        "@pulumi/pulumi": "^3.113.0",
+        "dotenv": "^16.5.0"
     }
 }
