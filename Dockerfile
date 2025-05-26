@@ -45,4 +45,4 @@ COPY --from=build /usr/src/app/build /usr/src/app/build
 COPY --from=build /usr/src/app/public /usr/src/app/public
 COPY --from=build /usr/src/app/package.json /usr/src/app/package.json
 
-CMD [ "/bin/sh", "-c", "./node_modules/.bin/remix-serve ./build/index.js" ]
+CMD ["npx","remix-serve","build/index.js","--host","0.0.0.0","--port","80"]
