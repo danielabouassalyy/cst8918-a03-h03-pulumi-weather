@@ -6,13 +6,15 @@ import type { MetaFunction } from '@remix-run/node'
 
 export const meta: MetaFunction = () => {
   return [
-    { title: 'Remix Weather' },
+    { title: 'Remix Weather for Testing' },
     {
       name: 'description',
       content: 'A demo web app using Remix and OpenWeather API.',
     },
   ]
 }
+// Example change:
+console.log("This is a test deployment to AKS test environment.");
 
 const location = {
   city: 'Ottawa',
